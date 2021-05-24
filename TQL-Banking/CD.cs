@@ -33,9 +33,6 @@ namespace TQL_Banking
             var interest = Balance * (APR / 12.0m) * CDDuration;
             base.Deposit(interest);
             return base.Withdraw(amount);
-
-
-            
         }
         public CD (int CDDuration)
         {
